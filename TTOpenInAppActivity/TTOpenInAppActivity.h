@@ -13,6 +13,7 @@
 @interface TTOpenInAppActivity : UIActivity <UIDocumentInteractionControllerDelegate>
 
 @property (nonatomic, strong) id superViewController;
+@property (nonatomic, strong) NSURL *fileURL;
 
 - (id)initWithView:(UIView *)view andRect:(CGRect)rect;
 - (id)initWithView:(UIView *)view andBarButtonItem:(UIBarButtonItem *)barButtonItem;
