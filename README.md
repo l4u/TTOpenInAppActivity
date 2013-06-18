@@ -1,5 +1,8 @@
 # TTOpenInAppActivity
 
+This is a fork of TTOpenInAppActivity. 
+In addition to adding URL in the shared items, you can explictly specify the file URL to be shared.
+
 `TTOpenInAppActivity` is a `UIActivity` subclass that provides an "Open In ..." action to a `UIActivityViewController`. `TTOpenInAppActivity` uses an UIDocumentInteractionController to present all Apps than can handle the document specified with a file URL.
 
 ![TTOpenInActivity screenshot](http://i49.tinypic.com/1pf29t.png "TTOpenInActivity screenshot")
